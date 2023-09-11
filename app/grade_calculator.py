@@ -82,3 +82,8 @@ class GradeCalculator:
             return 'D'
         else:
             return 'F'
+        
+    @staticmethod
+    def calculate_requirements_for_A(grades: Grades, weights: GradeWeights) -> Grades:
+        grades = Grades()
+        return grades
